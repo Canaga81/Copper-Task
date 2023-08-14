@@ -262,7 +262,7 @@ html {
 /*! Make */
 
 .make {
-    padding: 7rem 26.2rem 7rem 26.2rem;
+    padding: 7rem 16.2rem 7rem 16.2rem;
 }
 
 .make .make-container {
@@ -300,4 +300,187 @@ html {
 .make .make-container .make-content .make-image img {
     width: 100%;
     height: 100%;
+}
+
+/*! Sales */
+
+.sales {
+    width: 100%;
+    height: 75rem;
+    background: #F4F5F7;
+}
+
+.sales .sales-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sales .sales-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.sales .sales-container .sales-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image {
+    width: 36rem;
+    height: 32rem;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.sales .sales-container .sales-content .sales-content-image a {
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    padding: 1.7rem 0.8rem 1.6rem 0.8rem;
+    background-color: #fff;
+    transition: all 0.24s ease-in;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image a:hover {
+    background-color: #5E3928;
+    color: #fff;
+}
+
+.sales .sales-container .sales-content .sales-content-image a i {
+    font-size: 1.8rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.sales .sales-container .sales-content .sales-content-text {
+    padding-left: 3rem;
+    padding-right: 3.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales .sales-container .sales-content .sales-content-text p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.sales .sales-container .sales-content .sales-content-text small {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.sales .sales-container .sales-button {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.sales .sales-container .sales-button .sales-btn {
+    width: 23.7rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    transition: all 0.5s ease-in;
+}
+
+.sales .sales-container .sales-button .sales-btn:hover {
+    background: #031412;
+}
+
+/*! Sales-2 */
+
+.sales.white {
+    background-color: #fff;
+}
+
+/*! Picture-small */
+
+.picture-small {
+    background-image: url(../images/BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 42.6rem;
+}
+
+.picture-small .picture-small-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+}
+
+.picture-small .picture-small-container .picture-small-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.picture-small .picture-small-container .picture-small-content h1 {
+    max-width: 52.2rem;
+    color: #FFF;
+    font-family: Lighthaus;
+    font-size: 14rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.picture-small .picture-small-container .picture-small-content p {
+    width: 53.3rem;
+    color: #FFF;
+    font-family: Mont;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.picture-small .picture-small-container .picture-small-content .picture-small-button .picture-small-btn {
+    width: 32.7rem;
+    height: 3.6rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border-radius: 0.6rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+.picture-small .picture-small-container .picture-small-content .picture-small-button .picture-small-btn:hover {
+    background: #031412;
 }
