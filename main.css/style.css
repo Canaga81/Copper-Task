@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.picture {
+    background-image: url(../images/BG.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 71.5rem;
+}
+
+.picture header {
+    padding-left: 26.2rem;
+}
+
+.picture header .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9rem;
+    gap: 7.7rem;
+}
+
+.picture header .navbar .logo {
+    cursor: pointer;
+}
+
+.picture header .navbar .navbar-content {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.picture header .navbar .navbar-content a {
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+    transition: all 0.126s ease-in;
+}
+
+.picture header .navbar .navbar-content a:hover {
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    text-decoration-line: underline;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.picture header .navbar .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.picture header .navbar .navbar-icons a {
+    background-color: #fff;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 8.8rem 1.8rem 0rem 1.8rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.picture header .navbar .navbar-icons a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.picture header .navbar .navbar-icons a i {
+    font-size: 2.1rem;
+    position: absolute;
+    left: 0.81rem;
+    bottom: 3.6rem;
+}
+
+.picture main {
+    padding-left: 26.2rem;
+    padding-top: 10.5rem;
+}
+
+.picture main .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.picture main .main-container .main-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.picture main .main-container .main-content-1 h1 {
+    width: 73.7rem;
+    color: #FFF;
+    font-family: Lighthaus;
+    font-size: 10rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.picture main .main-container .main-content-1 .line {
+    max-width: 62.3rem;
+    height: 0.1rem;
+    background: linear-gradient(5deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.picture main .main-container .main-content-1 .main-text {
+    width: 53.3rem;
+    color: #FFF;
+    font-family: Mont;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.picture main .main-container .main-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4.1rem;
+}
+
+.picture main .main-container .main-content-2 .main-paragraph {
+    display: flex;
+    align-items: center;
+    gap: 10.9rem;
+}
+
+.picture main .main-container .main-content-2 .main-paragraph small {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.4%;
+}
+
+.picture main .main-container .main-content-2 .main-paragraph p {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.picture main .main-container .main-content-2 .main-button .main-btn {
+    width: 25.7rem;
+    height: 3.6rem;
+    border-radius: 0.6rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.picture main .main-container .main-content-2 .main-button .main-btn:hover {
+    background: #000;
+}
+
+.picture main .main-container .main-content-3 {
+    display: flex;
+    gap: 1rem;
+}
+
+.picture main .main-container .main-content-3 .brown-cube {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: linear-gradient(124deg, #5E3928 0%, #E4A16F 91.15%);
+}
+
+.picture main .main-container .main-content-3 .grey-cube {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #FFF;
+}
+
+.picture main .main-container .main-content-3 .white-cube {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #FFF;
+}
+
+.picture .main-left-right {
+    position: relative;
+}
+
+.picture .main-left-right .fa-angle-right {
+    position: absolute;
+    right: 0.3rem;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    bottom: 30rem;
+    font-size: 2.8rem;
+    color: #FFF;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+.picture .main-left-right .fa-angle-right:hover {
+    opacity: 0.75;
+}
+
+.picture .main-left-right .fa-angle-left {
+    position: absolute;
+    left: 0.3rem;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+    bottom: 30rem;
+    font-size: 2.8rem;
+    color: #FFF;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+.picture .main-left-right .fa-angle-left:hover {
+    opacity: 0.69;
+}
+
+/*! Make */
+
+.make {
+    padding: 7rem 26.2rem 7rem 26.2rem;
+}
+
+.make .make-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.make .make-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.make .make-container .make-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.make .make-container .make-content .make-image {
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.make .make-container .make-content .make-image:hover {
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.make .make-container .make-content .make-image img {
+    width: 100%;
+    height: 100%;
+}
