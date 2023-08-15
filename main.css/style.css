@@ -10,6 +10,8 @@ html {
     font-size: 62.5%;
 }
 
+/*! Picture */
+
 .picture {
     background-image: url(../images/BG.png);
     background-position: center;
@@ -19,11 +21,11 @@ html {
     height: 71.5rem;
 }
 
-.picture header {
-    padding-left: 26.2rem;
+header {
+    padding-left: 16.2rem;
 }
 
-.picture header .navbar {
+header .navbar {
     display: flex;
     align-items: center;
     width: 100%;
@@ -31,17 +33,17 @@ html {
     gap: 7.7rem;
 }
 
-.picture header .navbar .logo {
+header .navbar .logo {
     cursor: pointer;
 }
 
-.picture header .navbar .navbar-content {
+header .navbar .navbar-content {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
 
-.picture header .navbar .navbar-content a {
+header .navbar .navbar-content a {
     color: #FFF;
     text-align: center;
     font-family: Mont;
@@ -52,7 +54,7 @@ html {
     transition: all 0.126s ease-in;
 }
 
-.picture header .navbar .navbar-content a:hover {
+header .navbar .navbar-content a:hover {
     text-align: center;
     font-family: Mont;
     font-size: 1.6rem;
@@ -66,13 +68,13 @@ html {
     -webkit-text-fill-color: transparent;
 }
 
-.picture header .navbar .navbar-icons {
+header .navbar .navbar-icons {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.picture header .navbar .navbar-icons a {
+header .navbar .navbar-icons a {
     background-color: #fff;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -81,12 +83,12 @@ html {
     transition: all 0.3s ease-in-out;
 }
 
-.picture header .navbar .navbar-icons a:hover {
+header .navbar .navbar-icons a:hover {
     background-color: #000;
     color: #fff;
 }
 
-.picture header .navbar .navbar-icons a i {
+header .navbar .navbar-icons a i {
     font-size: 2.1rem;
     position: absolute;
     left: 0.81rem;
@@ -94,7 +96,7 @@ html {
 }
 
 .picture main {
-    padding-left: 26.2rem;
+    padding-left: 16.2rem;
     padding-top: 10.5rem;
 }
 
