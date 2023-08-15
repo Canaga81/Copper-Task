@@ -240,6 +240,10 @@ header .navbar .navbar-icons a i {
     font-style: normal;
     font-weight: 900;
     line-height: 96.4%;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .customer .customer-container .customer-content-2 h1 {
@@ -251,4 +255,8 @@ header .navbar .navbar-icons a i {
     font-style: normal;
     font-weight: 800;
     line-height: 96.4%;
+    background: linear-gradient(150deg, #34231a 0%, #1c150f 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
