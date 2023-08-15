@@ -260,3 +260,124 @@ header .navbar .navbar-icons a i {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/*! History */
+
+.history {
+    background-color: #031412;
+    position: relative;
+    height: 62.6rem;
+    width: 100%;
+}
+
+.history h1 {
+    width: 76.9rem;
+    transform: rotate(-90deg);
+    color: #FFF;
+    font-family: Lighthaus;
+    font-size: 15.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+    position: absolute;
+    top: 9.6rem;
+    left: -27rem;
+}
+
+.history .history-container {
+    padding: 3.6rem 16.2rem 3.6rem 16.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.8rem;
+    align-items: center;
+}
+
+.history .history-container h2 {
+    width: 58.7rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%; /* 52.95px */
+}
+
+.history .history-container .history-content {
+    display: flex;
+    gap: 3.1rem;
+}
+
+.history .history-container .history-content .history-content-text-1 {
+    width: 44.5rem;
+}
+
+.history .history-container .history-content .history-content-text-1 p {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+
+.history .history-container .history-content .history-content-text-2 {
+    width: 44.5rem;
+}
+
+.history .history-container .history-content .history-content-text-2 p {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.4%;
+}
+
+/*! Geography */
+
+.geography {
+    background-color: #F4F5F7;
+    width: 100%;
+    height: 63.3rem;
+}
+
+.geography .geography-container {
+    padding: 3.6rem 16.2rem 3.6rem 16.2rem;
+    display: flex;
+    align-items: center;
+    gap: 7.3rem;
+}
+
+.geography .geography-container .geography-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.8rem;
+}
+
+.geography .geography-container .geography-content-1 h2 {
+    width: 31rem;
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%;
+}
+
+.geography .geography-container .geography-content-1 .geography-paragraph {
+    width: 36.5rem;
+}
+
+.geography .geography-container .geography-content-1 .geography-paragraph p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.9%;
+}
+
+.geography .geography-container .geography-content-2 .geography-image img {
+    width: 100%;
+}
