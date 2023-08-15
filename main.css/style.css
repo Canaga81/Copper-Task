@@ -284,13 +284,18 @@ html {
 
 .make .make-container .make-content {
     display: flex;
+    justify-content: center;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .make .make-container .make-content .make-image {
     box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.05);
     cursor: pointer;
     transition: all 0.3s ease-in;
+    max-width: 36rem;
+    min-width: 25rem;
+    height: 32rem;
 }
 
 .make .make-container .make-content .make-image:hover {
@@ -483,4 +488,179 @@ html {
 
 .picture-small .picture-small-container .picture-small-content .picture-small-button .picture-small-btn:hover {
     background: #031412;
+}
+
+/*! User */
+
+.user {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+}
+
+.user .user-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.user .user-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.user .user-container .user-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.user .user-container .user-content .user-card {
+    padding: 2.1rem 4rem 1.8rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.user .user-container .user-content .user-card h3 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.user .user-container .user-content .user-card .user-paragraph {
+    width: 27.6rem;
+}
+
+.user .user-container .user-content .user-card .user-paragraph p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+.user .user-container .user-content .user-card span {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.4%;
+}
+
+/*! Choose */
+
+.choose {
+    width: 100%;
+    background: #F4F5F7;
+}
+
+.choose .choose-container {
+    display: flex;
+    padding-top: 3rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.choose .choose-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.choose .choose-container .choose-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.choose .choose-container .choose-content .choose-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    cursor: pointer;
+}
+
+.choose .choose-container .choose-content .choose-card a {
+    width: 3.7rem;
+    height: 3.7rem;
+    background: linear-gradient(324deg, #0B3F37 0%, #CB8D62 96.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose .choose-container .choose-content .choose-card a i {
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text h4 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-paragraph {
+    width: 24.8rem;
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-button {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-button .choose-btn {
+    background: transparent;
+    border: none;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.4%;
+    background: linear-gradient(124deg, #5E3928 0%, #E4A16F 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-button i {
+    font-size: 0.8rem;
+    color: #CF9164;
+    cursor: pointer;
 }
