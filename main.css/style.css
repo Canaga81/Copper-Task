@@ -568,6 +568,7 @@ html {
 .choose .choose-container {
     display: flex;
     padding-top: 3rem;
+    padding-bottom: 5rem;
     align-items: center;
     flex-direction: column;
     gap: 5rem;
@@ -663,4 +664,94 @@ html {
     font-size: 0.8rem;
     color: #CF9164;
     cursor: pointer;
+}
+
+/*! Footer */
+
+footer {
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+footer .footer-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph {
+    width: 19.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph p {
+    color: #ADADAD;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-1 .footer-text {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 {
+    display: flex;
+    gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .p-hear {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a:hover {
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
+    color: #a3a0a0;
 }
