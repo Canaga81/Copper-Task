@@ -381,3 +381,268 @@ header .navbar .navbar-icons a i {
 .geography .geography-container .geography-content-2 .geography-image img {
     width: 100%;
 }
+
+/*! Forest */
+
+.forest {
+    padding: 3.6rem 16.2rem 3.6rem 16.2rem;
+}
+
+.forest .forest-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.forest .forest-container .forest-content-1 .forest-image img {
+    width: 93%;
+}
+
+.forest .forest-container .forest-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.forest .forest-container .forest-content-2 h2 {
+    width: 29.2rem;
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%;
+}
+
+.forest .forest-container .forest-content-2 .forest-paragraph {
+    width: 48.5rem;
+    height: 7.2rem;
+}
+
+.forest .forest-container .forest-content-2 .forest-paragraph p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.9%; /* 24.98px */
+}
+
+.forest .forest-container .forest-content-2 .forest-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.forest .forest-container .forest-content-2 .forest-icon-text i {
+    font-size: 3.6rem;
+}
+
+.forest .forest-container .forest-content-2 .forest-icon-text p {
+    width: 20.3rem;
+    color: #031412;
+    font-family: Mont;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+/*! Choose */
+
+.choose {
+    width: 100%;
+    background: #F4F5F7;
+}
+
+.choose .choose-container {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.choose .choose-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.choose .choose-container .choose-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.choose .choose-container .choose-content .choose-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    cursor: pointer;
+}
+
+.choose .choose-container .choose-content .choose-card a {
+    width: 3.7rem;
+    height: 3.7rem;
+    background: linear-gradient(324deg, #0B3F37 0%, #CB8D62 96.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose .choose-container .choose-content .choose-card a i {
+    font-size: 2.4rem;
+    color: #fff;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text h4 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-paragraph {
+    width: 24.8rem;
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-button {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-button .choose-btn {
+    background: transparent;
+    border: none;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.4%;
+    background: linear-gradient(124deg, #5E3928 0%, #E4A16F 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.choose .choose-container .choose-content .choose-card .choose-text .choose-button i {
+    font-size: 0.8rem;
+    color: #CF9164;
+    cursor: pointer;
+}
+
+
+/*! Footer */
+
+footer {
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+footer .footer-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph {
+    width: 19.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph p {
+    color: #ADADAD;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-1 .footer-text {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 {
+    display: flex;
+    gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .p-hear {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a:hover {
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
+    color: #a3a0a0;
+}
