@@ -24,3 +24,30 @@ var swiperStore = new Swiper(".boySwipper", {
         },
     },
 });
+
+var swiperStore = new Swiper(".hackerSwipper", {
+    slidesPerView: 2,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 3000,
+      },
+    loop:true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+    },
+});

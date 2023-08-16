@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*! Header */
+
+header {
+    padding-left: 16.2rem;
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9rem;
+    gap: 15.9rem;
+}
+
+header .navbar .logo {
+    cursor: pointer;
+}
+
+header .navbar .navbar-content {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+header .navbar .navbar-content a {
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+    transition: all 0.126s ease-in;
+}
+
+header .navbar .navbar-content a:hover {
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    text-decoration-line: underline;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .navbar .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .navbar .navbar-icons a {
+    background-color: #fff;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 8.8rem 1.8rem 0rem 1.8rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+header .navbar .navbar-icons a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+header .navbar .navbar-icons a i {
+    font-size: 2.1rem;
+    position: absolute;
+    left: 0.81rem;
+    bottom: 3.6rem;
+}

@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/*! Header */
+
+header {
+    padding-left: 16.2rem;
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 9rem;
+    gap: 15.9rem;
+}
+
+header .navbar .logo {
+    cursor: pointer;
+}
+
+header .navbar .navbar-content {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+header .navbar .navbar-content a {
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+    transition: all 0.126s ease-in;
+}
+
+header .navbar .navbar-content a:hover {
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    text-decoration-line: underline;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header .navbar .navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header .navbar .navbar-icons a {
+    background-color: #fff;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding: 8.8rem 1.8rem 0rem 1.8rem;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+header .navbar .navbar-icons a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+header .navbar .navbar-icons a i {
+    font-size: 2.1rem;
+    position: absolute;
+    left: 0.81rem;
+    bottom: 3.6rem;
+}
+
+/*! Katalog */
+
+.katalog {
+    padding: 2.5rem 16.2rem 2.5rem 16.2rem;
+}
+
+.katalog .katalog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+.katalog .katalog-container .katalog-top-container p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.katalog .katalog-container .katalog-top-container p a {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 96.4%;
+}
+
+.katalog .katalog-container .katalog-center-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.katalog .katalog-container .katalog-center-container h2 {
+    width: 31rem;
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-body-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: -3rem;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 29.8rem;
+    min-width: 28rem;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture img {
+    max-width: 100%;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture p {
+    position: absolute;
+    top: 10rem;
+    left: 8.4rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-line {
+    width: 112.5rem;
+    height: 0.1rem;
+    background: #EBEBEB;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container {
+    display: flex;
+    gap: 67.5rem;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-input {
+    border-bottom: 0.1rem solid #031412;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.126);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-input input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-input input::placeholder {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-input i {
+    font-size: 1.5rem;
+    color: #031412;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-input i:hover {
+    opacity: 0.75;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-p-button .katalog-p {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-p-button .katalog-p p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 96.4%;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-p-button .katalog-p .katalog-button {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-p-button .katalog-p .katalog-button:hover {
+    opacity: 0.75;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-p-button .katalog-p .katalog-button .katalog-btn {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-p-button .katalog-p .katalog-button i {
+    font-size: 1.2rem;
+    color: #031412;
+}
+
+/*! Sales */
+
+.sales {
+    width: 100%;
+    height: 75rem;
+    background: #fff;
+    margin-left: -3rem;
+}
+
+.sales.sales-2 {
+    margin-top: -37rem;
+}
+
+.sales.sales-3 {
+    margin-top: -37rem;
+    margin-bottom: -30rem;
+}
+
+.sales .sales-container {
+    padding: 0 16.2rem 0 16.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sales .sales-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.sales .sales-container .sales-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image {
+    width: 36rem;
+    height: 32rem;
+
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.sales .sales-container .sales-content .sales-content-image a {
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    padding: 1.7rem 0.8rem 1.6rem 0.8rem;
+    background-color: #fff;
+    transition: all 0.24s ease-in;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image a:hover {
+    background-color: #5E3928;
+    color: #fff;
+}
+
+.sales .sales-container .sales-content .sales-content-image a i {
+    font-size: 1.8rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.sales .sales-container .sales-content .sales-content-text {
+    padding-left: 3rem;
+    padding-right: 3.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales .sales-container .sales-content .sales-content-text p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.sales .sales-container .sales-content .sales-content-text small {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.sales .sales-container .sales-button {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.sales .sales-container .sales-button .sales-btn {
+    width: 23.7rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    transition: all 0.5s ease-in;
+}
+
+.sales .sales-container .sales-button .sales-btn:hover {
+    background: #031412;
+}
+
+/*! Footer */
+
+footer {
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+footer .footer-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph {
+    width: 19.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph p {
+    color: #ADADAD;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-1 .footer-text {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 {
+    display: flex;
+    gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .p-hear {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a:hover {
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
+    color: #a3a0a0;
+}
