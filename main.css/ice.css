@@ -309,6 +309,10 @@ header .navbar .navbar-icons a i {
     border-bottom-left-radius: 0.6rem;
 }
 
+.sales .sales-container .sales-content .sales-content-image .share-butn {
+    padding: 6rem;
+}
+
 .sales .sales-container .sales-content .sales-content-image a:hover {
     background-color: #5E3928;
     color: #fff;
@@ -330,7 +334,7 @@ header .navbar .navbar-icons a i {
     justify-content: space-between;
 }
 
-.sales .sales-container .sales-content .sales-content-text p {
+.sales .sales-container .sales-content .sales-content-text a {
     color: #031412;
     font-family: Mont;
     font-size: 1.6rem;

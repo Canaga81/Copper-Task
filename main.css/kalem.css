@@ -86,3 +86,541 @@ header .navbar .navbar-icons a i {
     left: 0.81rem;
     bottom: 3.6rem;
 }
+
+/*! Share */
+
+.share {
+    padding-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5.1rem;
+}
+
+.share .share-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.share .share-container .share-top-container p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.share .share-container .share-top-container p a {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 96.4%;
+}
+
+.share .share-container .share-center-container {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.share .share-container .share-center-container .share-content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.741rem;
+}
+
+.share .share-container .share-center-container .share-content-1 .share-icon a {
+    padding: 0.8rem 1.2rem;
+    background-color: #0B3F37;
+    border-radius: 0.6rem;
+    transition: all 0.126s ease-in;
+}
+
+.share .share-container .share-center-container .share-content-1 .share-icon a:hover {
+    opacity: 0.75;
+}
+
+.share .share-container .share-center-container .share-content-1 .share-icon a i {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers {
+    display: flex;
+    gap: 3rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 h2 {
+    width: 63.3rem;
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold {
+    display: flex;
+    align-items: center;
+    gap: 36rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold .share-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold .share-icon-text i {
+    font-size: 1.3rem;
+    color: #4B7159;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold .share-icon-text .green-text {
+    color: #4B7159;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold .text-bold p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.4%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold .text-bold p span {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-line {
+    width: 57rem;
+    height: 0.1rem;
+    background-color: #E6E8E7;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-head-2-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-head-2-text h4 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+    text-transform: uppercase;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-head-2-text .share-paragraph {
+    width: 46.9rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-head-2-text .share-paragraph p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.4%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-bottom-text {
+    display: flex;
+    gap: 15rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-bottom-text h3 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-bottom-text .share-red-text {
+    display: flex;
+    align-items: center;
+    gap: 2.9rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-bottom-text .share-red-text .share-red {
+    color: #9B0000;
+    font-family: Mont;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-bottom-text .share-red-text .share-white {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-boxes {
+    width: 20.8rem;
+    height: 5rem;
+    border: 1px solid #E6E8E7;
+    display: flex;
+    cursor: pointer;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-boxes .box-1 {
+    width: 5.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #031412;
+    text-align: center;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+    transition: all 0.126s ease-in;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-boxes .box-1:hover {
+    background-color: #9B0000;
+    color: #fff;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-boxes .box-2 {
+    width: 10.6rem;
+    height: 5rem;
+    border: 1px solid #E6E8E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #031412;
+    text-align: center;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+    transition: all 0.126s ease-in;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-boxes .box-2:hover {
+    background-color: #9B0000;
+    color: #fff;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-button .share-btn {
+    width: 33.6rem;
+    height: 5rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border: none;
+    border-radius: 0.6rem;
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-button .share-btn:hover {
+    opacity: 0.75;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-social {
+    display: flex;
+    align-items: center;
+    gap: 5.2rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-social .share-text-dark p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+    text-transform: uppercase;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-social .share-social {
+    display: flex;
+    gap: 2rem;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-social .share-social i {
+    font-size: 2rem;
+    color: #4B7159;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+.share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-social .share-social i:hover {
+    opacity: 0.75;
+}
+
+.share .share-line-big {
+    width: 90%;
+    height: 1px;
+    background: #E6E8E7;
+}
+
+/*? Description */
+
+.share .description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+}
+
+.share .description-container h2 {
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%;
+}
+
+.share .description-container .description-paragraph {
+    width: 92.5%;
+}
+
+.share .description-container .description-paragraph p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.4%;
+}
+
+/*! User */
+
+.user {
+    padding-left: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+
+.user .user-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.user .user-container .user-text-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 13.5rem;
+}
+
+.user .user-container .user-text-button h2 {
+    color: #031412;
+    font-family: Lighthaus;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%; /* 42.36px */
+}
+
+.user .user-container .user-text-button .user-button .user-btn {
+    width: 27.7rem;
+    border-radius: 0.6rem;
+    height: 5rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.user .user-container .user-text-button .user-button .user-btn:hover {
+    opacity: 0.75;
+}
+
+.user .user-container .user-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.user .user-container .user-content .user-card {
+    padding: 2.1rem 4rem 1.8rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.user .user-container .user-content .user-card h3 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.user .user-container .user-content .user-card .user-paragraph {
+    width: 27.6rem;
+}
+
+.user .user-container .user-content .user-card .user-paragraph p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+.user .user-container .user-content .user-card span {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 134.4%;
+}
+
+/*! Footer */
+
+footer {
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+footer .footer-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-container .footer-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph {
+    width: 19.4rem;
+}
+
+footer .footer-container .footer-content-1 .footer-paragraph p {
+    color: #ADADAD;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-1 .footer-text {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 {
+    display: flex;
+    gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .p-hear {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+}
+
+footer .footer-container .footer-content-2 .footer-unit a:hover {
+    text-decoration-line: underline;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.126s ease-in;
+}
+
+footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
+    color: #a3a0a0;
+}
