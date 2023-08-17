@@ -371,6 +371,11 @@ header .navbar .navbar-icons a i {
     background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
     border: none;
     border-radius: 0.6rem;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.shop .shop-container .shop-center-container .shop-content .shop-content-item-2 .shop-line-button .shop-btn a {
     color: #FFF;
     text-align: center;
     font-family: Mont;
@@ -378,8 +383,6 @@ header .navbar .navbar-icons a i {
     font-style: normal;
     font-weight: 800;
     line-height: 96.4%;
-    cursor: pointer;
-    transition: all 0.24s ease-in;
 }
 
 .shop .shop-container .shop-center-container .shop-content .shop-content-item-2 .shop-line-button .shop-btn:hover {
