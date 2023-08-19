@@ -47,7 +47,7 @@ header .navbar .logo {
 .order .order-container .order-top-container {
     display: flex;
     align-items: center;
-    gap: 14rem;
+    gap: 30rem;
 }
 
 .order .order-container .order-top-container .order-button .order-btn {
@@ -72,4 +72,591 @@ header .navbar .logo {
     font-style: normal;
     font-weight: 800;
     line-height: 96.4%;
+}
+
+.order .order-container .order-top-container .order-head h2 {
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.9%;
+}
+
+.order .order-container .order-center-container {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.order .order-container .order-center-container .order-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content {
+    width: 92.2rem;
+    height: 12.3rem;
+    background: #E6E8E7;
+    padding: 2.1rem 3rem 2rem 2.4rem;
+    display: flex;
+    align-items: center;
+    gap: 6.1rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-order {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-icon a {
+    padding: 2.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-icon a i {
+    font-size: 2.5rem;
+    color: #0B3F37;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-text h5 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112.4%;
+    width: 30rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-text p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons .order-left-btn-red {
+    width: 18.6767rem;
+    height: 3.9rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons .order-left-btn-red:hover {
+    opacity: 0.75;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons .order-left-btn-red a {
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons .order-left-btn-transperent {
+    background: transparent;
+    width: 18.6767rem;
+    height: 3.9rem;
+    border: 1px solid #031412;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons .order-left-btn-transperent a {
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons .order-left-btn-transperent:hover {
+    background-color: #0B3F37;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.7rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .left-2-number-text {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .left-2-number-text .order-number {
+    width: 3.6rem;
+    height: 3.6rem;
+    background: linear-gradient(324deg, #0B3F37 0%, #CB8D62 96.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .left-2-number-text .order-number p {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .left-2-number-text .order-text-h3 h3 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .order-form {
+    display: flex;
+    gap: 3rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .order-form .order-form-left form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .order-form .order-form-left form input {
+    width: 27.7rem;
+    height: 3.6rem;
+    padding-left: 2rem;
+    border: 1px solid #A1A1A1;
+    outline: none;
+}
+
+.order .order-container .order-center-container .order-left-container .left-2-content .order-form .order-form-left form input::placeholder {
+    color: #A1A1A1;
+    font-family: Mont;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .left-3-number-text {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .left-3-number-text .order-number {
+    width: 3.6rem;
+    height: 3.6rem;
+    background: linear-gradient(324deg, #0B3F37 0%, #CB8D62 96.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .left-3-number-text .order-number p {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .left-3-number-text .order-text-h3 h3 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .order-inputs-texts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .order-inputs-texts-container .order-input-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .order-inputs-texts-container .order-input-text .order-input {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .order-inputs-texts-container .order-input-text .order-input input {
+    width: 1.7rem;
+    height: 1.7rem;
+    stroke-width: 2px;
+    stroke: #FFF;
+    cursor: pointer;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .order-inputs-texts-container .order-input-text .order-input h5 {
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-3-content .order-inputs-texts-container .order-input-text .order-text {
+    width: 39.8rem;
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.6rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .left-4-number-text {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .left-4-number-text .order-number {
+    width: 3.6rem;
+    height: 3.6rem;
+    background: linear-gradient(324deg, #0B3F37 0%, #CB8D62 96.96%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .left-4-number-text .order-number p {
+    color: #FFF;
+    font-family: Mont;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .left-4-number-text .order-text-h3 h3 {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2.7rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .order-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .order-input-container .input-text {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .order-input-container .input-text input {
+    width: 1.7rem;
+    height: 1.7rem;
+    stroke-width: 2px;
+    stroke: #FFF;
+}
+
+.order .order-container .order-center-container .order-left-container .left-4-content .order-input-container .input-text p {
+    color: #A1A1A1;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    height: 200px;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-image img {
+    width: 100%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-text-container .order-head-h3 h3 {
+    width: 20.8rem;
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+    text-transform: uppercase;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-texts-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-texts-numbers .order-text p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 132.4%;
+    text-transform: uppercase;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-texts-numbers .order-numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-texts-numbers .order-numbers .white-text {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+    opacity: 0.3;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-texts-numbers .order-numbers .red-text {
+    color: #9B0000;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 132.4%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-background {
+    width: 100%;
+    height: 0.1rem;
+    background: #E6E8E7;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container {
+    width: 44.6rem;
+    height: 42.7rem;
+    flex-shrink: 0;
+    padding: 4rem 3.4rem 3.2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button {
+    display: flex;
+    align-items: center;
+    width: 38.2rem;
+    height: 5rem;
+    border: 1px solid #E6E8E7;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button input {
+    height: 5rem;
+    width: 25.6rem;
+    padding-left: 1.9rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button input::placeholder {
+    color: #A1A1A1;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button .order-input-btn {
+    width: 12.6rem;
+    height: 5rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border: none;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button .order-input-btn:hover {
+    opacity: 0.75;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button .order-input-btn a {
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-texts-head {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-texts-head .slim-text {
+    color: #031412;
+    font-family: Mont;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-texts-head .bold-num {
+    color: #031412;
+    font-family: Mont;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-line-background {
+    width: 100%;
+    height: 0.1rem;
+    background: #E6E8E7;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-icon-text {
+    display: flex;
+    align-items: center;
+    gap: 1.9rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-icon-text i {
+    font-size: 2.7rem;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-icon-text .order-text-white p {
+    width: 19.4rem;
+    color: #A1A1A1;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 116.4%;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-big-button-red .big-red-btn {
+    width: 36.3rem;
+    height: 3.6rem;
+    background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.24s ease-in;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-big-button-red .big-red-btn:hover {
+    opacity: 0.75;
+}
+
+.order .order-container .order-center-container .order-right-container .order-line-2-container .order-big-button-red .big-red-btn a {
+    color: #FFF;
+    text-align: center;
+    font-family: Mont;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
+/*! Footer */
+
+footer {
+    background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+}
+
+footer .footer-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+}
+
+footer .footer-container .footer-content-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

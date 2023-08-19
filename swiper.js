@@ -25,6 +25,7 @@ var swiperStore = new Swiper(".boySwipper", {
     },
 });
 
+
 var swiperStore = new Swiper(".hackerSwipper", {
     slidesPerView: 2,
     spaceBetween: 20,
