@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="main.css/bold.css">
+    <title>Kabinet</title>
+</head>
+
+<body>
+
+    <!--! Header Start -->
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/image 2.png" alt="logo-image">
+            </div>
+
+            <div class="navbar-content">
+                <a href="katalog.html">Kataloq</a>
+                <a href="xeberler.html">Xəbərlər</a>
+                <a href="#">Çatdırılma</a>
+                <a href="haqqimizda.html">Bizim haqqımızda</a>
+                <a href="#">Əlaqələr</a>
+            </div>
+
+            <div class="navbar-icons">
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="selahiyyet.html"><i class="fa-regular fa-user"></i></a>
+                <a href="shopping.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!--! Header End -->
+
+    <section class="profile">
+
+        <div class="profile-container">
+
+            <div class="profile-top-container">
+                <h2>Şəxsi sahə</h2>
+            </div>
+
+            <div class="profile-center-container">
+
+                <div class="profile-left">
+
+                    <div class="profile-buttons">
+
+                        <button class="profile-btn">
+                            <i class="fa-regular fa-user"></i>
+                            <!--! Diqqet -->
+                            <a href="kabinet.html" class="profile-text">Profil təfərrüatları</a>
+                            <!--! Diqqet -->
+                        </button>
+
+                        <button class="profile-btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <!--! Diqqet -->
+                            <a href="" class="profile-text">Sifarişlər</a>
+                            <!--! Diqqet -->
+                        </button>
+
+                        <button class="profile-btn">
+                            <i class="fa-regular fa-heart"></i>
+                            <!--! Diqqet -->
+                            <a href="" class="profile-text">Arzu siyahısı</a>
+                            <!--! Diqqet -->
+                        </button>
+
+                    </div>
+
+                    <div class="close-button">
+                        <button class="close-btn">
+                            <a href="index.html"><i class="fa-solid fa-right-from-bracket"></i></a>
+                            <p>Çıxış</p>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="profile-right">
+                    <div class="profile-line-1">
+                        <div class="profile-image">
+                            <img src="images/Images 198.png" alt="profile-image">
+                        </div>
+
+                        <div class="profile-text-content">
+                            <p class="profile-name">Günortanız Xeyir</p>
+                            <h4 class="profile-head">İvan İvanov</h4>
+
+                            <div class="profile-text-icon">
+                                <i class="fa-solid fa-download"></i>
+                                <div class="profile-text-span">
+                                    <p class="picture-text">Şəkil yükləyin</p>
+                                    <span>(jpeg, png)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-line-2">
+
+                        <div class="profile-buttons-left">
+                            <input type="tel" placeholder="Telefon">
+                            <input type="text" placeholder="Olke">
+                            <input type="text" placeholder="kuce">
+                        </div>
+
+                        <div class="profile-buttons-right">
+                            <input type="email" placeholder="E-mail">
+                            <input type="text" placeholder="Şəhər">
+                        </div>
+
+                    </div>
+
+                    <div class="profile-line-transperent"></div>
+
+                    <div class="profile-line-3">
+                        <h3>Parol</h3>
+
+                        <div class="parol-inputs">
+                            <input type="password" placeholder="Parol">
+                            <input type="button" placeholder="Parolu dəyişdirin">
+                        </div>
+                    </div>
+
+                    <div class="profile-line-transperent"></div>
+
+                    <div class="profile-line-4">
+                        <h3>Ödəniş sistemi</h3>
+
+                        <form action="process_payment.php" method="post">
+
+                            <label for="cardNumber">Kredi Kartı Numarası:</label>
+                            <input type="text" id="cardNumber" name="cardNumber" maxlength="16" autocomplete="off">
+                            <br>
+                            <label for="expiry">Son Kullanma Tarihi:</label>
+                            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" maxlength="5"
+                                autocomplete="off">
+                            <br>
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv" maxlength="4" autocomplete="off">
+
+                        </form>
+
+                        <div class="profile-red-button">
+
+                            <button class="profile-red-btn">
+                                <a href="#">Yadda saxla</a>
+                            </button>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--! Footer Start -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content-1">
+                <div class="logo">
+                    <img src="images/image 2.png" alt="logo-image">
+                </div>
+
+                <div class="footer-paragraph">
+                    <p>© 2021 Copper Pro
+                        Bütün hüquqlar qorunur
+                    </p>
+                </div>
+
+                <p class="footer-text">Gizlilik Siyasəti</p>
+            </div>
+
+            <div class="footer-content-2">
+
+                <div class="footer-unit">
+                    <p class="p-hear">Naviqasiya</p>
+
+                    <a href="katalog.html">Kataloq</a>
+                    <a href="xeberler.html">Xəbərlər</a>
+                    <a href="#">Çatdırılma</a>
+                    <a href="haqqimizda.html">Bizim haqqımızda</a>
+                    <a href="#">Əlaqələr</a>
+                </div>
+
+                <div class="footer-unit">
+                    <p class="p-hear">Kataloq</p>
+
+                    <a href="#">Efir yağları üçün</a>
+                    <a href="#">Hidrolatlar üçün</a>
+                    <a href="#">Mis qablar</a>
+                    <a href="#">Mis aksesuarları</a>
+                    <a href="#">Fərdi sifariş</a>
+                    <a href="#">Endirimlər və təkliflər</a>
+                </div>
+
+                <div class="footer-unit">
+                    <p class="p-hear">Əlaqələr</p>
+
+                    <a href="#">Bazhana 8-B, Kiyev,02132 Ukrayna</a>
+                    <a href="#">+38 (096) 990 67 56</a>
+                    <a href="#">a.alambik@gmail.com</a>
+
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!--! Footer End -->
+
+</body>
+
+</html>
