@@ -12,6 +12,14 @@ html {
 
 /*! Picture */
 
+/*! Header Mobile Start */
+
+.picture .mobile {
+    display: none;
+}
+
+/*! Header Mobile End */
+
 .picture {
     background-image: url(../images/BG.png);
     background-position: center;
@@ -31,6 +39,11 @@ header .navbar {
     width: 100%;
     height: 9rem;
     gap: 15.9rem;
+}
+
+header .navbar .navbar-logo {
+    display: flex;
+    gap: 6rem;
 }
 
 header .navbar .logo {
@@ -72,6 +85,12 @@ header .navbar .navbar-icons {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+header .navbar .navbar-icons .background-brown {
+    background-color: #5E3928;
+    color: #fff;
+    display: none;
 }
 
 header .navbar .navbar-icons a {
@@ -288,7 +307,7 @@ header .navbar .navbar-icons a i {
     display: flex;
     justify-content: center;
     gap: 3rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .make .make-container .make-content .make-image {
@@ -343,7 +362,6 @@ header .navbar .navbar-icons a i {
 .sales .sales-container .sales-content .sales-content-image {
     width: 36rem;
     height: 32rem;
-
     cursor: pointer;
     transition: all 0.3s ease-in;
     position: relative;
@@ -602,6 +620,11 @@ header .navbar .navbar-icons a i {
     cursor: pointer;
 }
 
+.choose .choose-container .choose-content .choose-cards-2 {
+    display: flex;
+    gap: 2.4rem;
+}
+
 .choose .choose-container .choose-content .choose-card a {
     width: 3.7rem;
     height: 3.7rem;
@@ -672,6 +695,7 @@ header .navbar .navbar-icons a i {
 
 footer {
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+    width: 100%;
 }
 
 footer .footer-container {
@@ -712,6 +736,11 @@ footer .footer-container .footer-content-1 .footer-text {
 footer .footer-container .footer-content-2 {
     display: flex;
     gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-units {
+    display: flex;
+    gap: 10.5rem;
 }
 
 footer .footer-container .footer-content-2 .footer-unit {
@@ -761,5 +790,319 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
 /* Responsive */
 
 @media(max-width:768px) {
+
+    html {
+        font-size: 57.5%;
+    }
+
+    header {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+        padding-top: 2.5rem;
+    }
+
+    header .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    header .navbar .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .picture main {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+    }
+
+    .picture .main-left-right .fa-angle-right {
+        display: none;
+    }
     
+    .picture .main-left-right .fa-angle-left {
+        display: none;
+    }
+
+    /*! Picture-Small */
+
+    .picture-small .picture-small-container {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+        padding-left: 5.2rem;
+    }
+
+    /*! Choose */
+
+    .choose .choose-container .choose-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6rem;
+    }
+
+    .choose .choose-container .choose-content .choose-card {
+        display: flex;
+        flex-direction: column;
+        gap: 3.6rem;
+    }
+
+    .choose .choose-container .choose-content .choose-cards-2 {
+        display: flex;
+        gap: 8.4rem;
+    }
+
+    /*! Sales */
+
+    .sales .sales-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    /*! User */
+
+    .user {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+
+    html {
+        font-size: 52.5%;
+    }
+
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+    }
+
+    header .navbar .navbar-content {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .heart-a {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .background-brown {
+        display: block;
+    }
+
+    header .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        gap: 9rem;
+    }
+
+    .picture main {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .picture main .main-container .main-content-1 h1 {
+        width: 53.7rem;
+        font-size: 5rem;
+    }
+
+    .picture main .main-container .main-content-1 .line {
+        max-width: 52.3rem;
+    }
+
+    .picture main .main-container .main-content-1 .main-text {
+        width: 43.3rem;
+        font-size: 3.3rem;
+    }
+
+    .picture main .main-container .main-content-2 .main-paragraph {
+        display: flex;
+        align-items: center;
+        gap: 6.9rem;
+    }
+
+    .picture main .main-container .main-content-2 .main-paragraph small {
+        font-size: 2.4rem;
+    }
+
+    .picture main .main-container .main-content-2 .main-paragraph p {
+        color: #FFF;
+        font-family: Mont;
+        font-size: 2.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 96.4%;
+    }
+
+    .picture main .main-container .main-content-2 .main-button .main-btn {
+        width: 20.7rem;
+        height: 3.2rem;
+        font-size: 2rem;
+    }
+
+    .picture main .main-container .main-content-3 {
+        display: flex;
+        gap: 0.7rem;
+    }
+
+    .picture main .main-container .main-content-3 .brown-cube {
+        width: 0.9rem;
+        height: 0.9rem;
+        background: linear-gradient(124deg, #5E3928 0%, #E4A16F 91.15%);
+    }
+
+    .picture main .main-container .main-content-3 .grey-cube {
+        width: 0.9rem;
+        height: 0.9rem;
+        background: #FFF;
+    }
+    
+    .picture main .main-container .main-content-3 .white-cube {
+        width: 0.9rem;
+        height: 0.9rem;
+        background: #FFF;
+    }
+
+    /*! Make */
+
+    .make {
+        padding: 7rem 1.5rem 7rem 1.5rem;
+    }
+
+    .make .make-container .make-content {
+        display: flex;
+        justify-content: center;
+        gap: 0.1rem;
+        flex-wrap: wrap;
+    }
+
+    /*! Sales */
+
+    .sales .sales-container {
+        padding: 7rem 1.5rem 7rem 1.5rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        gap: -5rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-image {
+        width: 42rem;
+        height: 32rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        position: relative;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text p {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 96.4%;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text small {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 96.4%;
+    }
+
+    /*! Picture Small */
+
+    .picture-small .picture-small-container {
+        padding: 7rem 1.5rem 7rem 1.5rem;
+    }
+
+    .picture-small .picture-small-container .picture-small-content {
+        display: flex;
+        flex-direction: column;
+        gap: 3.6rem;
+    }
+
+    .picture-small .picture-small-container .picture-small-content h1 {
+        max-width: 42.3rem;
+        color: #FFF;
+        font-family: Lighthaus;
+        font-size: 6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 74.9%;
+    }
+
+    .picture-small .picture-small-container .picture-small-content p {
+        width: 27rem;
+        color: #FFF;
+        font-family: Mont;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 96.4%;
+    }
+
+    .picture-small .picture-small-container .picture-small-content .picture-small-button .picture-small-btn {
+        width: 21.9rem;
+        height: 3rem;
+        font-size: 1.45rem;
+    }
+    
+    /*! Choose */
+
+    .choose .choose-container .choose-content .choose-cards-2 {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .choose .choose-container .choose-content .choose-card .choose-text .choose-paragraph {
+        width: 18.7rem;
+        color: #031412;
+        font-family: Mont;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 134.4%;
+    }
+
+    /*! Mobile */
+
+    .picture .mobile {
+        display: block;
+        background-color: #5E3928;
+        width: 100%;
+        height: 60rem;
+        margin-top: -20rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-content-2 .footer-units {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+
 }
