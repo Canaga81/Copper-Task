@@ -431,13 +431,15 @@ header .navbar .logo {
 }
 
 .order .order-container .order-center-container .order-right-container .order-line-1-container {
+    /*! Diqqet ! */
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
     height: 200px;
     width: 100%;
     overflow: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden;    
+    /*! Diqqet ! */
 }
 
 .order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content {
