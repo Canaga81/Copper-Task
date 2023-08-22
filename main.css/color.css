@@ -435,7 +435,7 @@ header .navbar .logo {
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
-    height: 200px;
+    height: 20rem;
     width: 100%;
     overflow: scroll;
     overflow-x: hidden;    
