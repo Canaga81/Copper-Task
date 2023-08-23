@@ -886,6 +886,7 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
 
 }
 
+
 @media(max-width: 420px) {
 
     html {
@@ -917,6 +918,8 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
         height: 9rem;
         gap: 9rem;
     }
+
+    /*! Picture Main */
 
     .picture main {
         padding-left: 1.5rem;
