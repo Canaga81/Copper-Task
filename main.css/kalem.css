@@ -25,6 +25,11 @@ header .navbar {
     gap: 15.9rem;
 }
 
+header .navbar .navbar-logo {
+    display: flex;
+    gap: 6rem;
+}
+
 header .navbar .logo {
     cursor: pointer;
 }
@@ -64,6 +69,12 @@ header .navbar .navbar-icons {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+header .navbar .navbar-icons .background-brown {
+    background-color: #5E3928;
+    color: #fff;
+    display: none;
 }
 
 header .navbar .navbar-icons a {
@@ -156,6 +167,8 @@ header .navbar .navbar-icons a i {
     gap: 3rem;
 }
 
+
+
 .share .share-container .share-center-container .share-content-numbers .share-content-3 {
     display: flex;
     flex-direction: column;
@@ -163,7 +176,7 @@ header .navbar .navbar-icons a i {
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 h2 {
-    width: 63.3rem;
+    max-width: 63.3rem;
     color: #031412;
     font-family: Lighthaus;
     font-size: 4rem;
@@ -175,7 +188,7 @@ header .navbar .navbar-icons a i {
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold {
     display: flex;
     align-items: center;
-    gap: 36rem;
+    justify-content: space-between;
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold .share-icon-text {
@@ -217,7 +230,7 @@ header .navbar .navbar-icons a i {
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-line {
-    width: 57rem;
+    max-width: 57rem;
     height: 0.1rem;
     background-color: #E6E8E7;
 }
@@ -239,7 +252,7 @@ header .navbar .navbar-icons a i {
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-head-2-text .share-paragraph {
-    width: 46.9rem;
+    max-width: 46.9rem;
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-head-2-text .share-paragraph p {
@@ -326,7 +339,8 @@ header .navbar .navbar-icons a i {
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-boxes .box-2 {
-    width: 10.6rem;
+    max-width: 10.6rem;
+    min-width: 8.1rem;
     height: 5rem;
     border: 1px solid #E6E8E7;
     display: flex;
@@ -348,7 +362,8 @@ header .navbar .navbar-icons a i {
 }
 
 .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-box-button .share-button .share-btn {
-    width: 33.6rem;
+    max-width: 33.6rem;
+    min-width: 16rem;
     height: 5rem;
     background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
     border: none;
@@ -461,10 +476,10 @@ header .navbar .navbar-icons a i {
 .user .user-container .user-text-button h2 {
     color: #031412;
     font-family: Lighthaus;
-    font-size: 40px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 105.9%; /* 42.36px */
+    line-height: 105.9%;
 }
 
 .user .user-container .user-text-button .user-button .user-btn {
@@ -535,10 +550,99 @@ header .navbar .navbar-icons a i {
     line-height: 134.4%;
 }
 
+/*! Sales */
+
+.sales {
+    width: 100%;
+    height: 75rem;
+    background: #F4F5F7;
+}
+
+.sales .sales-container {
+    padding: 7rem 16.2rem 7rem 16.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.sales .sales-container h2 {
+    text-align: center;
+    color: #031412;
+    text-align: center;
+    font-family: Lighthaus;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 74.9%;
+}
+
+.sales .sales-container .sales-content {
+    display: flex;
+    gap: 3rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image {
+    width: 36rem;
+    height: 32rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    position: relative;
+}
+
+.sales .sales-container .sales-content .sales-content-image a {
+    position: absolute;
+    top: 7%;
+    right: 8%;
+    padding: 1.7rem 0.8rem 1.6rem 0.8rem;
+    background-color: #fff;
+    transition: all 0.24s ease-in;
+    border-bottom-left-radius: 0.6rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image a:hover {
+    background-color: #5E3928;
+    color: #fff;
+}
+
+.sales .sales-container .sales-content .sales-content-image a i {
+    font-size: 1.8rem;
+}
+
+.sales .sales-container .sales-content .sales-content-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.sales .sales-container .sales-content .sales-content-text {
+    padding-left: 3rem;
+    padding-right: 3.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sales .sales-container .sales-content .sales-content-text p {
+    color: #031412;
+    font-family: Mont;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 96.4%;
+}
+
+.sales .sales-container .sales-content .sales-content-text small {
+    color: #031412;
+    font-family: Mont;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 96.4%;
+}
+
 /*! Footer */
 
 footer {
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+    width: 100%;
 }
 
 footer .footer-container {
@@ -579,6 +683,11 @@ footer .footer-container .footer-content-1 .footer-text {
 footer .footer-container .footer-content-2 {
     display: flex;
     gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-units {
+    display: flex;
+    gap: 10.5rem;
 }
 
 footer .footer-container .footer-content-2 .footer-unit {
@@ -623,4 +732,234 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
 
 footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
     color: #a3a0a0;
+}
+
+@media(max-width: 968px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 57.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 3.6rem;
+    }
+
+    header .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    header .navbar .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /*! Share */
+
+    .share {
+        padding-left: 5.2rem;
+        padding-right: 5.2rem;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers .share-content-3 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -12rem;
+        gap: 3.7rem;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-line {
+        max-width: 34rem;
+        height: 0.1rem;
+        background-color: #E6E8E7;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers .share-content-3 .share-text-bold {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /*! User */
+
+    .user {
+        padding-left: 5.2rem;
+    }
+
+    /*! Sales */
+
+    .sales .sales-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        position: relative;
+    }
+
+    header .navbar .navbar-content {
+        display: none;
+    }
+
+    header .navbar .navbar-content.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10000;
+        background-color: #a98870;
+        right: 3%;
+        top: 90%;
+        padding: 3rem;
+        border-radius: 0.6rem;
+    }
+
+    header .navbar .navbar-icons .heart-a {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .background-brown {
+        display: block;
+    }
+
+    header .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        gap: 9rem;
+    }
+
+    /*! Share */
+
+    .share {
+        padding-left: 1.5rem;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers .share-content-2 .share-big-image img {
+        height: 70rem;
+        width: 100%;
+    }
+
+    .share .share-container .share-center-container .share-content-numbers .share-content-3 h2 {
+        width: 43.3rem;
+        font-size: 3.6rem;
+    }
+
+    /*! User */
+
+    .user {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .user .user-container .user-text-button {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    } 
+
+    .user .user-container .user-text-button h2 {
+        font-size: 5rem;
+    }
+
+    .user .user-container .user-text-button .user-button .user-btn {
+        width: 22.8rem;
+        height: 4.2rem;
+    }
+    
+
+    /*! Sales */
+
+    .sales .sales-container {
+        padding: 7rem 1.5rem 7rem 1.5rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        gap: -5rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-image {
+        width: 42rem;
+        height: 32rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        position: relative;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text p {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 96.4%;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text small {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 96.4%;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-content-2 .footer-units {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
 }
