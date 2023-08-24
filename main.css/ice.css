@@ -25,6 +25,11 @@ header .navbar {
     gap: 15.9rem;
 }
 
+header .navbar .navbar-logo {
+    display: flex;
+    gap: 6rem;
+}
+
 header .navbar .logo {
     cursor: pointer;
 }
@@ -66,6 +71,12 @@ header .navbar .navbar-icons {
     gap: 2rem;
 }
 
+header .navbar .navbar-icons .background-brown {
+    background-color: #5E3928;
+    color: #fff;
+    display: none;
+}
+
 header .navbar .navbar-icons a {
     background-color: #fff;
     border-bottom-left-radius: 2rem;
@@ -91,6 +102,7 @@ header .navbar .navbar-icons a i {
 
 .katalog {
     padding: 2.5rem 16.2rem 2.5rem 16.2rem;
+    width: 100%;
 }
 
 .katalog .katalog-container {
@@ -140,6 +152,11 @@ header .navbar .navbar-icons a i {
     margin-left: -3rem;
 }
 
+.katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-pictures {
+    display: flex;
+    justify-content: center;
+}
+
 .katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture {
     display: flex;
     justify-content: center;
@@ -149,7 +166,7 @@ header .navbar .navbar-icons a i {
 }
 
 .katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture p {
@@ -166,7 +183,7 @@ header .navbar .navbar-icons a i {
 }
 
 .katalog .katalog-container .katalog-center-container .katalog-line {
-    width: 112.5rem;
+    max-width: 112.5rem;
     height: 0.1rem;
     background: #EBEBEB;
 }
@@ -187,6 +204,7 @@ header .navbar .navbar-icons a i {
     background: transparent;
     border: none;
     outline: none;
+    /* width: 100%; */
 }
 
 .katalog .katalog-container .katalog-center-container .katalog-center-inputs-container .katalog-input input::placeholder {
@@ -251,6 +269,7 @@ header .navbar .navbar-icons a i {
 
 /*! Sales */
 
+
 .sales {
     width: 100%;
     height: 75rem;
@@ -272,6 +291,7 @@ header .navbar .navbar-icons a i {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+    width: 100%;
 }
 
 .sales .sales-container h2 {
@@ -331,7 +351,7 @@ header .navbar .navbar-icons a i {
     padding-left: 3rem;
     padding-right: 3.3rem;
     display: flex;
-    justify-content: space-between;
+    gap: 10rem;
 }
 
 .sales .sales-container .sales-content .sales-content-text a {
@@ -382,6 +402,7 @@ header .navbar .navbar-icons a i {
 
 footer {
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+    width: 100%;
 }
 
 footer .footer-container {
@@ -422,6 +443,11 @@ footer .footer-container .footer-content-1 .footer-text {
 footer .footer-container .footer-content-2 {
     display: flex;
     gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-units {
+    display: flex;
+    gap: 10.5rem;
 }
 
 footer .footer-container .footer-content-2 .footer-unit {
@@ -466,4 +492,216 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
 
 footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
     color: #a3a0a0;
+}
+
+@media(max-width: 968px) {
+
+    /*! General Style */
+
+
+    html {
+        font-size: 57.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 3.6rem;
+    }
+
+    header .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    header .navbar .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /*! Katalog */
+
+    .katalog {
+        padding: 2.5rem 5.2rem 2.5rem 5.2rem;
+    }
+
+    .katalog .katalog-container .katalog-center-container .katalog-center-inputs-container {
+        display: flex;
+        gap: 27.5rem;
+    }
+
+    /*! Sales */
+
+    .sales .sales-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+    /*! General Style */
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        position: relative;
+    }
+
+    header .navbar .navbar-content {
+        display: none;
+    }
+
+    header .navbar .navbar-content.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10000;
+        background-color: #a98870;
+        right: 3%;
+        top: 90%;
+        padding: 3rem;
+        border-radius: 0.6rem;
+    }
+
+    header .navbar .navbar-icons .heart-a {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .background-brown {
+        display: block;
+    }
+
+    header .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        gap: 9rem;
+    }
+
+    /*! Katalog */
+
+    .katalog {
+        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    }
+
+    .katalog .katalog-container .katalog-center-container h2 {
+        width: 25rem;
+        font-size: 4.2rem;
+    }
+
+    .katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .katalog .katalog-container .katalog-center-container .katalog-center-body-container .katalog-picture {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        max-width: 48rem;
+        min-width: 28rem;
+    }
+
+    .katalog .katalog-container .katalog-center-container .katalog-center-inputs-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .katalog .katalog-container .katalog-center-container .katalog-center-inputs-container {
+        display: flex;
+        gap: 3rem;
+    }
+
+    /*! Sales */
+
+    .sales {
+        width: 100%;
+    }
+
+    .sales .sales-container {
+        padding: 7rem 1.5rem 7rem 1.5rem;
+        margin-left: 3rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        gap: -5rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-image {
+        width: 42rem;
+        height: 32rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        position: relative;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text p {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 96.4%;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text small {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 96.4%;
+    }
+
+    .sales .sales-container {
+        padding: 0 1.5rem 0 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        width: 100%;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text {
+        padding-left: 3rem;
+        padding-right: 3.3rem;
+        display: flex;
+        gap: 6rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-content-2 .footer-units {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
 }
