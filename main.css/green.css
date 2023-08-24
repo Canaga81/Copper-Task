@@ -13,7 +13,7 @@ html {
 /*! Header */
 
 header {
-    padding-left: 10rem;
+    padding-left: 16.2rem;
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
 }
 
@@ -23,6 +23,11 @@ header .navbar {
     width: 100%;
     height: 9rem;
     gap: 15.9rem;
+}
+
+header .navbar .navbar-logo {
+    display: flex;
+    gap: 6rem;
 }
 
 header .navbar .logo {
@@ -64,6 +69,12 @@ header .navbar .navbar-icons {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+header .navbar .navbar-icons .background-brown {
+    background-color: #5E3928;
+    color: #fff;
+    display: none;
 }
 
 header .navbar .navbar-icons a {
@@ -118,7 +129,7 @@ header .navbar .navbar-icons a i {
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 300;
-    line-height: 96.4%;   
+    line-height: 96.4%;
 }
 
 .dream .dream-center-container {
@@ -230,7 +241,7 @@ header .navbar .navbar-icons a i {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 132.4%; /* 21.184px */
+    line-height: 132.4%;
 }
 
 .dream .dream-center-container .dream-head-text-h4 .dream-line-ul-text ul {
@@ -277,7 +288,7 @@ header .navbar .navbar-icons a i {
 }
 
 .dream .dream-center-container .dream-bottom-text-h4 .dream-big-line-text {
-    width: 108.2rem;
+    max-width: 108.2rem;
 }
 
 .dream .dream-center-container .dream-bottom-text-h4 .dream-big-line-text p {
@@ -286,7 +297,8 @@ header .navbar .navbar-icons a i {
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 132.4%; /* 21.184px */
+    line-height: 132.4%;
+    /* 21.184px */
 }
 
 .dream .dream-center-container .dream-line-background-color {
@@ -358,6 +370,7 @@ header .navbar .navbar-icons a i {
 
 footer {
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+    width: 100%;
 }
 
 footer .footer-container {
@@ -398,6 +411,11 @@ footer .footer-container .footer-content-1 .footer-text {
 footer .footer-container .footer-content-2 {
     display: flex;
     gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-units {
+    display: flex;
+    gap: 10.5rem;
 }
 
 footer .footer-container .footer-content-2 .footer-unit {
@@ -442,4 +460,172 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
 
 footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
     color: #a3a0a0;
+}
+
+@media(max-width: 968px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 57.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 3.6rem;
+    }
+
+    header .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    header .navbar .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /*! Dream */
+
+    .dream {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+        width: 100%;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container .dream-icons-text .dream-icon i {
+        font-size: 1.5rem;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container .dream-icons-text .dream-text p {
+        font-size: 1.4rem;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container .dream-text-social {
+        display: flex;
+        align-items: center;
+        gap: 4.2rem;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container .dream-text-social .dream-text-dark p {
+        font-size: 1.4rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+        
+    /*! General Style */
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        position: relative;
+    }
+
+    header .navbar .navbar-content {
+        display: none;
+    }
+
+    header .navbar .navbar-content.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10000;
+        background-color: #a98870;
+        right: 3%;
+        top: 90%;
+        padding: 3rem;
+        border-radius: 0.6rem;
+    }
+
+    header .navbar .navbar-icons .heart-a {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .background-brown {
+        display: block;
+    }
+
+    header .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        gap: 9rem;
+    }
+
+    /*! Dream */
+
+    .dream .dream-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3.6rem;
+    }
+
+    .dream .dream-center-container .dream-head-container .dream-head-text {
+        width: 42.8rem;
+    }
+
+    .dream .dream-center-container .dream-head-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dream .dream-center-container .dream-head-text-h4 .dream-begin h4 {
+        font-size: 2.4rem;
+        margin-bottom: 1.5rem;
+        margin-top: 8rem;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container {
+        display: flex;
+        flex-direction: column;
+        gap: 3.6rem;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container .dream-icons-text {
+        display: flex;
+        align-items: center;
+        gap: 2.4rem;
+    }
+
+    .dream .dream-center-container .dream-line-bottom-container .dream-text-social {
+        display: flex;
+        align-items: center;
+        gap: 7.2rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-content-2 .footer-units {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
 }
