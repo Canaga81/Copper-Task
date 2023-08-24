@@ -25,6 +25,11 @@ header .navbar {
     gap: 15.9rem;
 }
 
+header .navbar .navbar-logo {
+    display: flex;
+    gap: 6rem;
+}
+
 header .navbar .logo {
     cursor: pointer;
 }
@@ -64,6 +69,12 @@ header .navbar .navbar-icons {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+header .navbar .navbar-icons .background-brown {
+    background-color: #5E3928;
+    color: #fff;
+    display: none;
 }
 
 header .navbar .navbar-icons a {
@@ -187,7 +198,7 @@ header .navbar .navbar-icons a i {
 }
 
 .sales-paragraph-button p {
-    width: 51.9rem;
+    width: 100%;
     color: #031412;
     font-family: Mont;
     font-size: 1.4rem;
@@ -231,6 +242,7 @@ header .navbar .navbar-icons a i {
 
 footer {
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+    width: 100%;
 }
 
 footer .footer-container {
@@ -271,6 +283,11 @@ footer .footer-container .footer-content-1 .footer-text {
 footer .footer-container .footer-content-2 {
     display: flex;
     gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-units {
+    display: flex;
+    gap: 10.5rem;
 }
 
 footer .footer-container .footer-content-2 .footer-unit {
@@ -315,4 +332,204 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
 
 footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
     color: #a3a0a0;
+}
+
+
+
+@media(max-width: 968px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 57.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 3.6rem;
+    }
+
+    header .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    header .navbar .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+
+    /*! News */
+
+    .news {
+        padding: 2.5rem 5.2rem 2.5rem 5.2rem;
+    }
+
+    .news .news-container .news-center-container h2 {
+        width: 27rem;
+        font-size: 4.2rem;
+    }
+
+    /*! Sales */
+
+    .sales {
+        width: 100%;
+        background: #fff;
+    }
+
+    .sales .sales-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .sales-paragraph-button p {
+        width: 67.6rem;
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 132.4%;
+    }
+
+    .responsiveSwiper {
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    /*! Footer */
+
+    footer .footer-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+
+     
+    /*! General Style */
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        position: relative;
+    }
+
+    header .navbar .navbar-content {
+        display: none;
+    }
+
+    header .navbar .navbar-content.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10000;
+        background-color: #a98870;
+        right: 3%;
+        top: 90%;
+        padding: 3rem;
+        border-radius: 0.6rem;
+    }
+
+    header .navbar .navbar-icons .heart-a {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .background-brown {
+        display: block;
+    }
+
+    header .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        gap: 9rem;
+    }
+
+    /*! News */
+
+    .news {
+        padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+    }
+
+    /*! Sales */
+
+    .sales {
+        width: 100%;
+    }
+
+    .sales .sales-container {
+        padding: 7rem 1.5rem 7rem 1.5rem;
+        margin-left: 3rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text {
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        gap: -5rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-image {
+        width: 42rem;
+        height: 32rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        position: relative;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text p {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 96.4%;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text small {
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 96.4%;
+    }
+
+    .sales .sales-container .sales-content .sales-content-text {
+        padding-left: 3rem;
+        padding-right: 3.3rem;
+        display: flex;
+        gap: 6rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-content-2 .footer-units {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
 }

@@ -38,13 +38,13 @@ var swiperStore = new Swiper(".hackerSwipper", {
         clickable: true,
     },
     breakpoints: {
-        640: {
+        0: {
           slidesPerView: 1,
-          spaceBetween: 10,
+          spaceBetween: 70,
         },
         768: {
           slidesPerView: 1,
-          spaceBetween: 20,
+          spaceBetween: 70,
         },
         1024: {
           slidesPerView: 2,
