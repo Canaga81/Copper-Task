@@ -93,11 +93,10 @@ header .navbar .logo {
     display: flex;
     flex-direction: column;
     gap: 5rem;
-
 }
 
 .order .order-container .order-center-container .order-left-container .left-1-content {
-    width: 92.2rem;
+    max-width: 92.2rem;
     height: 12.3rem;
     background: #E6E8E7;
     padding: 2.1rem 3rem 2rem 2.4rem;
@@ -438,7 +437,7 @@ header .navbar .logo {
     height: 20rem;
     width: 100%;
     overflow: scroll;
-    overflow-x: hidden;    
+    overflow-x: hidden;
     /*! Diqqet ! */
 }
 
@@ -661,4 +660,149 @@ footer .footer-container .footer-content-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*! Responsive */
+
+@media(max-width: 968px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 57.5%;
+    }
+
+    /*! Order */
+
+    .order {
+        padding-left: 5.2rem;
+        padding-right: 5.2rem;
+    }
+
+    .order .order-container .order-top-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .order .order-container .order-center-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10.5rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content {
+        gap: 9.3rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content .left-1-buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .order .order-container .order-center-container .order-right-container {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+    }
+
+    .order .order-container .order-center-container .order-right-container .order-line-1-container {
+        /*! Diqqet ! */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*! Diqqet ! */
+    }
+
+    .order .order-container .order-center-container .order-right-container .order-line-1-container .order-line-1-content .order-text-container .order-head-h3 h3 {
+        width: 34rem;
+        color: #031412;
+        font-family: Mont;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 132.4%;
+        text-transform: uppercase;
+    }
+
+}
+
+@media(max-width: 420px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /*! Order */
+
+    .order {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content {
+        height: 36.3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.9rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content .left-1-order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.2rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-icon a {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-text h5 {
+        text-align: center;
+        width: 30rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-1-content .left-1-order .order-text p {
+        text-align: center;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-2-content .order-form {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .order .order-container .order-center-container .order-left-container .left-2-content .order-form .order-form-left form input {
+        width: 42.6rem;
+        height: 3.6rem;
+        padding-left: 2rem;
+        border: 1px solid #A1A1A1;
+        outline: none;
+    }
+
+    .order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button input {
+        height: 5rem;
+        width: 30.6rem;
+        padding-left: 1.9rem;
+    }
+
+    .order .order-container .order-center-container .order-right-container .order-line-2-container .order-input-button .order-input-btn {
+        width: 15.6rem;
+        height: 5rem;
+        background: linear-gradient(150deg, #5E3928 0%, #E4A16F 91.15%);
+        border: none;
+        cursor: pointer;
+        transition: all 0.24s ease-in;
+    }
+
 }
