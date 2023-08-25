@@ -25,6 +25,11 @@ header .navbar {
     gap: 15.9rem;
 }
 
+header .navbar .navbar-logo {
+    display: flex;
+    gap: 6rem;
+}
+
 header .navbar .logo {
     cursor: pointer;
 }
@@ -64,6 +69,12 @@ header .navbar .navbar-icons {
     display: flex;
     align-items: center;
     gap: 2rem;
+}
+
+header .navbar .navbar-icons .background-brown {
+    background-color: #5E3928;
+    color: #fff;
+    display: none;
 }
 
 header .navbar .navbar-icons a {
@@ -297,6 +308,7 @@ header .navbar .navbar-icons a i {
 
 footer {
     background: linear-gradient(331deg, #0B3F37 0%, #CB8D62 96.96%);
+    width: 100%;
 }
 
 footer .footer-container {
@@ -337,6 +349,11 @@ footer .footer-container .footer-content-1 .footer-text {
 footer .footer-container .footer-content-2 {
     display: flex;
     gap: 13.7rem;
+}
+
+footer .footer-container .footer-content-2 .footer-units {
+    display: flex;
+    gap: 10.5rem;
 }
 
 footer .footer-container .footer-content-2 .footer-unit {
@@ -381,4 +398,168 @@ footer .footer-container .footer-content-2 .footer-unit .footer-icons i {
 
 footer .footer-container .footer-content-2 .footer-unit .footer-icons i:hover {
     color: #a3a0a0;
+}
+
+@media(max-width: 968px) {
+
+    /*! General Style */
+
+    html {
+        font-size: 57.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 3.4rem;
+        padding-right: 3.4rem;
+        padding-top: 2.5rem;
+        padding-bottom: 3.6rem;
+    }
+
+    header .navbar .navbar-content {
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    header .navbar .navbar-logo {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    /*! Profile */
+
+    .profile .profile-container {
+        padding-top: 7.2rem;
+        padding-bottom: 7.2rem;
+        padding-left: 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5.1rem;
+    }
+
+    .profile .profile-container .profile-center-container {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
+    .profile .profile-container .profile-center-container .profile-left .profile-buttons .profile-btn {
+        width: 55rem;
+        height: 5.7rem;
+    }
+
+    .profile .profile-container .profile-center-container .profile-left .profile-buttons .profile-btn a {
+        font-size: 1.8rem;
+    }
+
+    /*! Sales */
+
+    .sales .sales-container {
+        padding: 3rem 5.2rem 0rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .sales .sales-container .sales-content {
+        display: flex;
+        width: 136%;
+        gap: 1rem;
+    }
+
+    .sales .sales-container .sales-content .sales-content-image {
+        width: 30rem;
+        height: 32rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in;
+        position: relative;
+    }
+
+    .sales.content-2 {
+        margin-top: -42rem;
+        margin-left: 0rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container {
+        padding: 7rem 5.2rem 7rem 5.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+    
+    /*! General Style */
+
+    html {
+        font-size: 52.5%;
+    }
+
+    /*! Header */
+
+    header {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.5rem;
+        position: relative;
+    }
+
+    header .navbar .navbar-content {
+        display: none;
+    }
+
+    header .navbar .navbar-content.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 10000;
+        background-color: #a98870;
+        right: 3%;
+        top: 90%;
+        padding: 3rem;
+        border-radius: 0.6rem;
+    }
+
+    header .navbar .navbar-icons .heart-a {
+        display: none;
+    }
+
+    header .navbar .navbar-icons .background-brown {
+        display: block;
+    }
+
+    header .navbar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 9rem;
+        gap: 9rem;
+    }
+
+    /*! Profile */
+
+    .profile .profile-container {
+        padding-left: 1.5rem;
+    }
+
+    .profile .profile-container .profile-center-container .profile-left .profile-buttons .profile-btn {
+        max-width: 43rem;
+        width: 43rem;
+    }
+
+    /*! Footer */
+
+    footer .footer-container .footer-content-2 .footer-units {
+        display: flex;
+        flex-direction: column;
+        gap: 6rem;
+    }
+
 }
